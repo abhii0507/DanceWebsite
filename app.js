@@ -35,7 +35,7 @@ app.set('views' , path.join(__dirname,'views'));
 //ENDPOINTS
 app.get('/',(req,res)=>{
  const params ={}
- res.render('index.pug',params);
+ res.render('./views/index.pug',params);
 })
 app.get('/contact',(req,res)=>{
  const params ={}
